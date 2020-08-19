@@ -34,6 +34,6 @@ switch randomNumber {
   print("\(playerName) asks: \(playerQuestion)")
   print("Magic 8 Ball's answer: \(eightBall).")
 */
-playerName.isEmpty ? print("\(playerQuestion)") : print("\(playerName) asks: \(playerQuestion)")
+playerName.isEmpty ? print("\(playerQuestion)") : print("\(playerName) asks: \(playerQuestion)") // Including ternary conditional operator
 print("Magic 8 Ball's answer: \(eightBall).")
 
